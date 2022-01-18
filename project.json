@@ -1,0 +1,102 @@
+{
+  "name": "Admin HrHub Scenario",
+  "description": "Test Automation Project",
+  "main": "Main.xaml",
+  "dependencies": {
+    "ReporterForUiPath.Activities": "[2.0.0]",
+    "UiPath.Excel.Activities": "[2.12.0-preview]",
+    "UiPath.System.Activities": "[21.10.3]",
+    "UiPath.Testing.Activities": "[1.4.4]",
+    "UiPath.UIAutomation.Activities": "[21.10.4]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "21.10.4.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Tests",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "45c953cc-343c-4835-bd71-7c816c0fff85",
+        "fileName": "TestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "0086cab9-8f83-4717-bc5f-ee7912004286",
+        "fileName": "ADMIN Sequence\\My Hr\\Profiles.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "69a7f04d-9ba1-4f69-846c-e8d47b29b24a",
+        "fileName": "ADMIN Sequence\\Login.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "fe444e3e-9c6d-4003-9929-3717304e0096",
+        "fileName": "ADMIN Sequence\\New User\\New user.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "7453e037-51d2-4754-91bf-34b82c57fefa",
+        "fileName": "ADMIN Sequence\\My Hr\\Personal.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "64a8a97f-a06f-42bd-a242-ee8ba6eae3e9",
+        "fileName": "ADMIN Sequence\\My Hr\\Direct Deposit.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "0fc3377e-e395-41b3-b4b2-7a71e52ff8af",
+        "fileName": "ADMIN Sequence\\New User\\Employee Module\\Company\\all Company.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "7df42ea9-1d19-4996-ba10-14f01864ab5c",
+        "fileName": "ADMIN Sequence\\New User\\Employee Module\\My HR\\Aall Hr module.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "08265a43-c5b9-4010-8154-bdba2a76dc62",
+        "fileName": "ADMIN Sequence\\New User\\Employee Module\\Support\\All Support Module.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "c6706e98-264b-42cd-9ca8-46b218b4a212",
+        "fileName": "ADMIN Sequence\\New User\\Employee Module\\Timecard\\All Timecard Module.xaml"
+      }
+    ],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
